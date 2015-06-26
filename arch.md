@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>GitHub Haz Cards?</title>
+    <title>GitHub Cards</title>
     <link rel="stylesheet" href="site.css">
     <meta name="gc:base" content="./">
     <meta name="gc:client-id" content="a11a1bda412d928fb39a">
@@ -22,64 +22,42 @@
     </script>
   </head>
   <body>
-	  
-	  
-	  
-	  
     <div class="container">
       <div class="header">
-        <div class="unofficial">The Super Fantastic Site:</div>
-        <h1>GitHub Haz Cards?</h1>
-        <p>Cards for our GitHub profiles, and a card for our most favorite GitHub repository.</p>
+        <div class="unofficial">The unofficial</div>
+        <h1>GitHub Cards</h1>
+        <p>Card for your GitHub profile, card for your GitHub repositories.</p>
       </div>
       <div class="cases">
         <div class="case user">
-          <h2>Me on GitHub</h2>
-          <p>Shows my GitHub profile.</p>
-          <div class="github-card" data-user="dazzaji" data-width=400 data-theme="medium"></div>
+          <h2>User Card</h2>
+          <p>Show your GitHub profile.</p>
+          <div class="github-card" data-user="lepture"></div>
         </div>
-
-          
-jwalsh
-
-
-           
-           
-        </div>
-      </div>
-      
-      
-        <div class="cases">
-        <div class="case user">
-          <h2> Repository GitHub</h2>           
-        </div>
-      </div>
-
-
-      <div class="howto">
-        
-        
-        <h2>The Project Repository/h2>
-        <div class="howto-section">
-       
-       
-       
-        <h2>Repo Card</h2>
+        <div class="case repo">
+          <h2>Repo Card</h2>
           <p>Show your GitHub repository.</p>
           <div class="github-card" data-user="lepture" data-repo="github-cards" data-width=400></div>
-
-
-               
-                <div class="howto-section">
+        </div>
+      </div>
+      <div class="howto">
+        <h2>How to Use</h2>
+        <div class="howto-section">
+          <div class="howto-theme">
+            <label for="howto-select">Theme</label>
+            <select id="howto-select" name="name">
+              <option value="default">default</option>
+              <option value="medium">medium</option>
+            </select>
+          </div>
+          <input id="howto-input" type="text" placeholder="username or username/repo">
+        </div>
+        <div class="howto-section" id="howto-preview">
+        </div>
+        <div class="howto-section">
           <textarea id="howto-code"></textarea>
         </div>
       </div>
-
-                  </div>
-        
-        
-        
-      
       <div class="footer">
         <p>Implements a script by <a href="http://lepture.com/">Hsiaoming Yang</a> • Hosted on <a href="https://github.com">GitHub</a></p>
       </div>
