@@ -25,5 +25,17 @@
     document.body.appendChild(el.cloneNode(true));
   </script>
   
+    
+  <hr>
+  
+    <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.middle');
+
+    document.body.appendChild(el.cloneNode(true));
+  </script>
   
 </body>
